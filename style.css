@@ -1,0 +1,53 @@
+/* Base styles for body */
+body {
+    text-align: center;
+    background-color: #ffccff; /* Softer, lighter pink background */
+    font-family: 'Cursive', Arial, sans-serif; /* Adding a more whimsical font */
+    padding: 50px 20px;
+    color: #ff69b4; /* Hot pink text color for contrast and pop */
+}
+
+/* Styling for the question or love message */
+.question, .love-message {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #d63384; /* A richer, deeper pink for better readability */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+/* Button styles for interaction */
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #f06292; /* Vibrant pink */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 20px; /* More pronounced rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(240, 98, 146, 0.4); /* Subtle pink glow */
+}
+
+button:hover, button:focus {
+    transform: translateY(-5px); /* Gentle lift effect */
+    box-shadow: 0 10px 20px rgba(240, 98, 146, 0.6); /* Enhanced pink glow */
+}
+
+
+
+
+/* GIF Styling */
+.cute-gif, .love-gif {
+    display: block;
+    margin: 20px auto; /* Centers the GIF */
+    max-width: 60%; /* Responsive, based on screen width */
+    border-radius: 20px; /* Rounded corners for a softer look */
+}
+
+/* Enhancing the overall aesthetic */
+.love-message, .question {
+    font-family: 'Cursive', 'Arial', sans-serif; /* Consistent font usage */
+    font-weight: bold;
+    color: #ff69b4; /* Ensuring the color theme is consistent */
+    text-shadow: 1px 1px 2px #d63384; /* Adding depth to the text */
+}
